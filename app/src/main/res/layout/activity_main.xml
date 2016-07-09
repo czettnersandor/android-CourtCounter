@@ -28,17 +28,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="addThreePoints"
         android:text="+3 Points" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="addTwoPoints"
         android:text="+2 Points" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="addOnePoint"
         android:text="Free throw" />
 </LinearLayout>
