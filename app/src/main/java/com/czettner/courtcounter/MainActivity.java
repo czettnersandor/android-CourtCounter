@@ -15,17 +15,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void addThreePoints(View view) {
+    public void addThreePointsA(View view) {
         scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
     }
 
-    public void addTwoPoints(View view) {
+    public void addTwoPointsA(View view) {
         scoreTeamA = scoreTeamA + 2;
         displayForTeamA(scoreTeamA);
     }
 
-    public void addOnePoint(View view) {
+    public void addOnePointA(View view) {
         scoreTeamA++;
         displayForTeamA(scoreTeamA);
     }

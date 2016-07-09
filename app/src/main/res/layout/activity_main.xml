@@ -15,6 +15,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
@@ -30,7 +31,7 @@
                 android:gravity="center"
                 android:padding="4dp"
                 android:textSize="24sp"
-                android:text="Team A" />
+                android:text="@string/team_a" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -46,22 +47,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:onClick="addThreePoints"
-                android:text="+3 Points" />
+                android:onClick="addThreePointsA"
+                android:text="@string/plus_3_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:onClick="addTwoPoints"
-                android:text="+2 Points" />
+                android:onClick="addTwoPointsA"
+                android:text="@string/plus_2_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:onClick="addOnePoint"
-                android:text="Free throw" />
+                android:onClick="addOnePointA"
+                android:text="@string/free_throw" />
         </LinearLayout>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -79,7 +80,7 @@
                 android:gravity="center"
                 android:padding="4dp"
                 android:textSize="24sp"
-                android:text="Team b" />
+                android:text="@string/team_b" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -96,30 +97,32 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addThreePointsB"
-                android:text="+3 Points" />
+                android:text="@string/plus_3_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addTwoPointsB"
-                android:text="+2 Points" />
+                android:text="@string/plus_2_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addOnePointB"
-                android:text="Free throw" />
+                android:text="@string/free_throw" />
         </LinearLayout>
 
     </LinearLayout>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="8dp"
         android:onClick="resetPoints"
-        android:text="Reset" />
+        android:text="@string/reset" />
+
 </RelativeLayout>
 
