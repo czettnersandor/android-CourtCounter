@@ -34,7 +34,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:textSize="24sp"
+                android:textSize="58sp"
+                android:textColor="@color/colorScore"
                 android:text="0" />
 
             <Button
@@ -81,7 +82,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:textSize="24sp"
+                android:textSize="58sp"
+                android:textColor="@color/colorScore"
                 android:text="0" />
 
             <Button
